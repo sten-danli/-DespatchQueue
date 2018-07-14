@@ -47,8 +47,12 @@
 			isa = PBXGroup;
 			children = (
 				321E969D20F9F4EA009709E6 /* Image.xcassets */,
+				321E969F20F9F6AF009709E6 /* ViewController.swift */,
 				321E969820F9F0F0009709E6 /* ModelData.swift */,
 				321E969A20F9F299009709E6 /* Data.swift */,
+				321E96A120F9FA83009709E6 /* CharacterCell.swift */,
+				322A66F720F9EFB8002D47C8 /* AppDelegate.swift */,
+				322A66FB20F9EFB8002D47C8 /* Main.storyboard */,
 				322A66F620F9EFB8002D47C8 /* 深入DespatchQueue */,
 				322A66F520F9EFB8002D47C8 /* Products */,
 			);
@@ -65,10 +69,6 @@
 		322A66F620F9EFB8002D47C8 /* 深入DespatchQueue */ = {
 			isa = PBXGroup;
 			children = (
-				322A66F720F9EFB8002D47C8 /* AppDelegate.swift */,
-				322A66FB20F9EFB8002D47C8 /* Main.storyboard */,
-				321E96A120F9FA83009709E6 /* CharacterCell.swift */,
-				321E969F20F9F6AF009709E6 /* ViewController.swift */,
 				322A66FE20F9EFBA002D47C8 /* Assets.xcassets */,
 				322A670020F9EFBA002D47C8 /* LaunchScreen.storyboard */,
 				322A670320F9EFBA002D47C8 /* Info.plist */,
