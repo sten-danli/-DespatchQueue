@@ -16,6 +16,7 @@
 		322A66FD20F9EFB8002D47C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322A66FB20F9EFB8002D47C8 /* Main.storyboard */; };
 		322A66FF20F9EFBA002D47C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322A66FE20F9EFBA002D47C8 /* Assets.xcassets */; };
 		322A670220F9EFBA002D47C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322A670020F9EFBA002D47C8 /* LaunchScreen.storyboard */; };
+		32EAD3E22101331200D4583F /* MedulaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32EAD3E12101331200D4583F /* MedulaOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		322A66FE20F9EFBA002D47C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322A670120F9EFBA002D47C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322A670320F9EFBA002D47C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EAD3E12101331200D4583F /* MedulaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MedulaOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +50,12 @@
 			children = (
 				321E969D20F9F4EA009709E6 /* Image.xcassets */,
 				321E969F20F9F6AF009709E6 /* ViewController.swift */,
-				321E969820F9F0F0009709E6 /* ModelData.swift */,
 				321E969A20F9F299009709E6 /* Data.swift */,
+				321E969820F9F0F0009709E6 /* ModelData.swift */,
 				321E96A120F9FA83009709E6 /* CharacterCell.swift */,
 				322A66F720F9EFB8002D47C8 /* AppDelegate.swift */,
 				322A66FB20F9EFB8002D47C8 /* Main.storyboard */,
+				32EAD3E12101331200D4583F /* MedulaOne-Regular.ttf */,
 				322A66F620F9EFB8002D47C8 /* 深入DespatchQueue */,
 				322A66F520F9EFB8002D47C8 /* Products */,
 			);
@@ -137,6 +140,7 @@
 				322A670220F9EFBA002D47C8 /* LaunchScreen.storyboard in Resources */,
 				321E969E20F9F4EA009709E6 /* Image.xcassets in Resources */,
 				322A66FF20F9EFBA002D47C8 /* Assets.xcassets in Resources */,
+				32EAD3E22101331200D4583F /* MedulaOne-Regular.ttf in Resources */,
 				322A66FD20F9EFB8002D47C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

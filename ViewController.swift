@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  深入DespatchQueue
-//
-//  Created by Dan Li on 14.07.18.
-//  Copyright © 2018 DanStenLee. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -16,11 +8,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tableData=Data.getData()
         tableView.dataSource=self
         tableView.delegate=self
-     
+
+        Data.getData(completion: { (data) in
+            self.tableData=data
+            self.tableView.reloadData()
+        })
     }
 }
 
