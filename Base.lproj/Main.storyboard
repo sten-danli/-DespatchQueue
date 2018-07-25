@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,15 +21,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="深入DespatchQueue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="AkB-4d-26E">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="TnF-i8-YXZ">
+                                <rect key="frame" x="-393" y="0.0" width="768" height="812"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jRF-PT-rh2">
-                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                                <rect key="frame" x="0.0" y="132" width="375" height="646"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="160" id="X9F-bf-2NB" customClass="CharacterCell" customModule="深入DespatchQueue" customModuleProvider="target">
@@ -39,14 +39,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-Ul-x1K">
-                                                    <rect key="frame" x="13" y="-7" width="96" height="159"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zelda" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-Ul-x1K">
+                                                    <rect key="frame" x="13" y="3" width="96" height="152"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="96" id="65t-Hs-RCx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="841-R9-kqK">
-                                                    <rect key="frame" x="117" y="9" width="149" height="45"/>
+                                                    <rect key="frame" x="117" y="9" width="94" height="45"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="45" id="NeI-kr-G8N"/>
                                                     </constraints>
@@ -55,7 +55,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coy-QL-QPg">
-                                                    <rect key="frame" x="117" y="62" width="251" height="90"/>
+                                                    <rect key="frame" x="117" y="62" width="196" height="90"/>
                                                     <string key="text">Diese Konzeptzeichnung zeigt das Design der Eingänge zu den Schreinen, von denen es in Hyrule jede Menge gibt. In der Mitte sieht man das Shiekah-Auge.</string>
                                                     <fontDescription key="fontDescription" name="MedulaOne-Regular" family="Medula One" pointSize="17"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,14 +63,14 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="mLI-Ul-x1K" firstAttribute="bottom" secondItem="Coy-QL-QPg" secondAttribute="bottom" id="1jz-74-FYW"/>
+                                                <constraint firstItem="mLI-Ul-x1K" firstAttribute="bottom" secondItem="Coy-QL-QPg" secondAttribute="bottom" constant="3" id="1jz-74-FYW"/>
                                                 <constraint firstItem="841-R9-kqK" firstAttribute="leading" secondItem="Coy-QL-QPg" secondAttribute="leading" id="B86-gk-Bbx"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Coy-QL-QPg" secondAttribute="trailing" constant="-8" id="GcV-Pr-8u6"/>
                                                 <constraint firstItem="mLI-Ul-x1K" firstAttribute="leading" secondItem="Wri-Cd-Geh" secondAttribute="leadingMargin" constant="-2" id="IIJ-Ua-pMM"/>
-                                                <constraint firstItem="mLI-Ul-x1K" firstAttribute="top" secondItem="Wri-Cd-Geh" secondAttribute="topMargin" constant="-18" id="Qrm-jW-YsA"/>
+                                                <constraint firstItem="mLI-Ul-x1K" firstAttribute="top" secondItem="Wri-Cd-Geh" secondAttribute="topMargin" constant="-8" id="Qrm-jW-YsA"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="841-R9-kqK" secondAttribute="trailing" constant="94" id="SK0-SP-FaI"/>
                                                 <constraint firstItem="841-R9-kqK" firstAttribute="leading" secondItem="mLI-Ul-x1K" secondAttribute="trailing" constant="8" symbolic="YES" id="axy-Ey-sFv"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="mLI-Ul-x1K" secondAttribute="bottom" constant="-3" id="saa-E7-tSJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="mLI-Ul-x1K" secondAttribute="bottom" constant="-6" id="saa-E7-tSJ"/>
                                                 <constraint firstItem="841-R9-kqK" firstAttribute="top" secondItem="Wri-Cd-Geh" secondAttribute="topMargin" constant="-2" id="vzv-Dw-H4W"/>
                                                 <constraint firstItem="Coy-QL-QPg" firstAttribute="top" secondItem="Wri-Cd-Geh" secondAttribute="topMargin" constant="51" id="wku-u7-vsd"/>
                                             </constraints>
@@ -85,7 +85,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zelda Characters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orZ-f0-NSe">
-                                <rect key="frame" x="0.0" y="9" width="375" height="83"/>
+                                <rect key="frame" x="0.0" y="33" width="375" height="83"/>
                                 <fontDescription key="fontDescription" name="MedulaOne-Regular" family="Medula One" pointSize="52"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -108,15 +108,79 @@
                     </view>
                     <navigationItem key="navigationItem" title="Zelda characters" id="QJb-Wo-wef"/>
                     <connections>
+                        <outlet property="closeInfoPopupDesign" destination="lBk-fh-UHa" id="dIJ-Wl-Wa2"/>
+                        <outlet property="infoImage" destination="50J-cp-Kk4" id="QMR-Ws-ZAV"/>
+                        <outlet property="infoLabel" destination="VhX-pC-8BD" id="TJC-Ii-QG7"/>
+                        <outlet property="infoView" destination="v9Q-Qp-0Hv" id="c0v-AA-Fe5"/>
                         <outlet property="tableView" destination="jRF-PT-rh2" id="9cX-Pl-JN5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="v9Q-Qp-0Hv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PY9-gm-8g4">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daruk" translatesAutoresizingMaskIntoConstraints="NO" id="50J-cp-Kk4">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhX-pC-8BD">
+                            <rect key="frame" x="16" y="36" width="343" height="52"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="MedulaOne-Regular" family="Medula One" pointSize="77"/>
+                            <color key="textColor" red="0.71372549019607845" green="0.62745098039215685" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBk-fh-UHa" customClass="DesignableButton" customModule="深入DespatchQueue" customModuleProvider="target">
+                            <rect key="frame" x="172" y="741" width="50" height="50"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="Ybc-OM-VYl"/>
+                                <constraint firstAttribute="height" constant="50" id="sPX-VF-fxy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <state key="normal" title="X">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="closeInfoPopup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n7Y-gt-vTl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="lBk-fh-UHa" firstAttribute="centerX" secondItem="v9Q-Qp-0Hv" secondAttribute="centerX" constant="10.166666666666629" id="D8p-JY-ZnO"/>
+                        <constraint firstItem="50J-cp-Kk4" firstAttribute="top" secondItem="v9Q-Qp-0Hv" secondAttribute="top" id="Imz-9e-68p"/>
+                        <constraint firstItem="50J-cp-Kk4" firstAttribute="leading" secondItem="f68-wn-M0T" secondAttribute="leading" id="Qa1-aV-lEO"/>
+                        <constraint firstAttribute="bottom" secondItem="lBk-fh-UHa" secondAttribute="bottom" constant="21" id="cFP-rj-ePv"/>
+                        <constraint firstAttribute="bottom" secondItem="50J-cp-Kk4" secondAttribute="bottom" id="snw-Gc-tDH"/>
+                        <constraint firstItem="50J-cp-Kk4" firstAttribute="trailing" secondItem="f68-wn-M0T" secondAttribute="trailing" id="tYk-zq-p3d"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="f68-wn-M0T"/>
+                </view>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>
         <image name="Background" width="768" height="1062"/>
+        <image name="Daruk" width="1080" height="1920"/>
+        <image name="Zelda" width="1080" height="1920"/>
     </resources>
 </document>
