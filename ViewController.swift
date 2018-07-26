@@ -30,6 +30,20 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource,UITableViewDelegate{
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 160
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tableData.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell=tableView.dequeueReusableCell(withIdentifier: "cell") as! CharacterCell
+        cell.setup(modelData: tableData[indexPath.row])
+        return cell
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let data = tableData[indexPath.row]
         
@@ -58,18 +72,5 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate{
         
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 160
-
-    }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tableData.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell=tableView.dequeueReusableCell(withIdentifier: "cell") as! CharacterCell
-        cell.setup(modelData: tableData[indexPath.row])
-        return cell
-    }
 }

@@ -122,16 +122,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="v9Q-Qp-0Hv">
-                    <rect key="frame" x="0.0" y="0.0" width="402" height="675"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="v9Q-Qp-0Hv" customClass="DesignableButton" customModule="深入DespatchQueue" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="373" height="649"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daruk" translatesAutoresizingMaskIntoConstraints="NO" id="50J-cp-Kk4">
-                            <rect key="frame" x="0.0" y="0.0" width="402" height="675"/>
+                            <rect key="frame" x="0.0" y="0.0" width="373" height="649"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhX-pC-8BD">
-                            <rect key="frame" x="16" y="36" width="370" height="52"/>
+                            <rect key="frame" x="16" y="36" width="341" height="52"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" name="MedulaOne-Regular" family="Medula One" pointSize="77"/>
@@ -139,7 +139,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBk-fh-UHa" customClass="DesignableButton" customModule="深入DespatchQueue" customModuleProvider="target">
-                            <rect key="frame" x="186.33333333333334" y="604" width="50" height="50"/>
+                            <rect key="frame" x="171.66666666666666" y="578" width="50" height="50"/>
                             <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="Ybc-OM-VYl"/>
@@ -175,6 +175,11 @@
                         <constraint firstItem="50J-cp-Kk4" firstAttribute="trailing" secondItem="f68-wn-M0T" secondAttribute="trailing" id="tYk-zq-p3d"/>
                     </constraints>
                     <viewLayoutGuide key="safeArea" id="f68-wn-M0T"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </objects>
             <point key="canvasLocation" x="1075.3623188405797" y="132.88043478260872"/>
